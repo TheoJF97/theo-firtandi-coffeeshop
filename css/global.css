@@ -1,0 +1,79 @@
+.body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+}
+
+.header {
+  background-color: #fff0ed;
+  text-align: left;
+}
+
+h1,
+.menu-box__title,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+.navbar__title {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.navbar__logo,
+.navbar__title {
+  text-decoration: none;
+}
+
+.navbar__logo-img {
+  padding-left: 2rem;
+}
+.navbar__logo-img,
+.footer-social__logo {
+  width: 3.125rem;
+}
+
+h3,
+.navbar-links {
+  font-size: 2.0625rem;
+  font-weight: 300;
+}
+
+.navbar-links,
+.nav-item,
+.nav-item__link {
+  display: inline-block;
+}
+
+.nav-item__link {
+  font-size: 1.3125rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 1.25rem;
+  color: black;
+}
+
+.navbar__title {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item__link-primary {
+  text-decoration: none;
+  color: #5bacc3;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu__item-price,
+.our-products__price {
+  color: #5bacc3;
+}

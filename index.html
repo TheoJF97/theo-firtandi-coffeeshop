@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <title>Coffee Shop - Home</title>
+  </head>
+
+  <body class="body">
+    <!-- HEADER + NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+        <a class="navbar__logo" href="index.html">
+          <img
+            class="navbar__logo-img"
+            src="../assets/coffee-beans-logo-and-footer.svg"
+            alt="coffee beans logo"
+          />
+        </a>
+        <a class="navbar__title" href="index.html">nitro</a>
+        <section class="navbar-links">
+          <ul class="navbar-items">
+            <li class="nav-item">
+              <a class="nav-item__link" href="index.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="./pages/menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-item__link nav-item__link-primary"
+                href="./pages/menu.html#menu"
+              >
+                SHOP NOW
+              </a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <!-- container -->
+    <section class="hero-header">
+      <!-- what needs to be vertical-center  -->
+      <div class="hero-header__box">
+        <h1 class="hero-header__title">Nitro Coffee</h1>
+        <p class="hero-header__description">
+          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
+          of berries from certain Coffea species.
+        </p>
+        <a class="hero-header__link" href="/pages/menu.html#menu">
+          <button class="hero-header__button">SHOP NOW</button>
+        </a>
+      </div>
+
+      <div class="hero-header-img-box">
+        <img
+          class="hero-header__img"
+          src="./assets/coffeebeans-hero.png"
+          alt="coffee bag"
+        />
+      </div>
+    </section>
+
+    <!-- OUR PRODUCTS  -->
+    <section class="our-products" id="our-products">
+      <h2 class="our-products__title">Our Products</h2>
+
+      <div class="our-products-container">
+        <div class="our-products-card">
+          <img
+            class="our-products-card__img"
+            src="/assets/coffeebeans.png"
+            alt="coffee beans"
+          />
+          <div class="our-products-card-desc">
+            <div class="our-products-card-desc__txt">
+              <h3 class="our-products__item">Coffee Beans</h3>
+              <p class="our-products__qty">Pack of 3</p>
+            </div>
+            <p class="our-products__price">$19</p>
+          </div>
+        </div>
+
+        <div class="our-products-card">
+          <img
+            class="our-products-card__img"
+            src="/assets/coldbrew.png"
+            alt="Cold Brew"
+          />
+          <div class="our-products-card-desc">
+            <div class="our-products-card-desc__txt">
+              <h3 class="our-products__item">Cold Brew</h3>
+              <p class="our-products__qty">1 can</p>
+            </div>
+            <p class="our-products__price">$5</p>
+          </div>
+        </div>
+
+        <div class="our-products-card">
+          <img
+            class="our-products-card__img"
+            src="/assets/inhousebrew.png"
+            alt="In-house Brew"
+          />
+          <div class="our-products-card-desc">
+            <div class="our-products-card-desc__txt">
+              <h3 class="our-products__item">In-house Brew</h3>
+              <p class="our-products__qty">1 cup</p>
+            </div>
+            <p class="our-products__price">$3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-products-button-box">
+        <a class="our-products__link" href="/pages/menu.html#menu">
+          <button class="our-products__button">VIEW ALL</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- DISCOUNT CTA -->
+    <section class="discount" id="discount">
+      <p class="discount__invite">
+        Get 20% off your first order with code:
+        <span class="discount__code">FirstNitro</span>
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-address">
+        <h3 class="footer-address__title">Address</h3>
+        <p class="footer-address__address">503 Broadway Penthouse</p>
+        <p class="footer-address__city">New York</p>
+      </div>
+
+      <div class="footer-hours">
+        <h3 class="footer-hours__hours">Hours</h3>
+        <p class="footer-hours__period">
+          <span class="footer-hours__day">Monday - Friday:</span> 9am - 7pm
+        </p>
+        <p class="footer-hours__period">
+          <span class="footer-hours__day">Saturday - Sunday:</span> 10am - 5pm
+        </p>
+      </div>
+
+      <div class="footer-social">
+        <h3 class="footer-social__title">Social</h3>
+        <a class="footer-social__link" href="https://www.facebook.com/">
+          <img
+            class="footer-social__logo"
+            src="/assets/Facebook-Icon.svg"
+            alt="facebook"
+          />
+        </a>
+        <a class="footer-social__link" href="https://www.yelp.com/">
+          <img
+            class="footer-social__logo"
+            src="/assets/Yelp-Icon.svg"
+            alt="yelp"
+          />
+        </a>
+        <a class="footer-social__link" href="https://www.instagram.com/">
+          <img
+            class="footer-social__logo"
+            src="/assets/Instagram-Icon.svg"
+            alt="instagram"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
