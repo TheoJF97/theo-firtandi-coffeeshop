@@ -1,3 +1,5 @@
+/* GENERAL STYLING */
+
 .body {
   font-family: "Open Sans";
   font-weight: 400;
@@ -14,6 +16,29 @@ h1,
 h2 {
   font-size: 3.75rem;
   font-weight: 300;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu__item-price,
+.our-products__price {
+  color: #5bacc3;
+}
+
+/* HEADER + NAVBAR */
+
+.navbar {
+  height: 6.875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__title {
@@ -61,19 +86,5 @@ h3,
 
 .nav-item__link-primary {
   text-decoration: none;
-  color: #5bacc3;
-}
-
-p {
-  font-size: 1.125rem;
-  font-weight: 400;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.menu__item-price,
-.our-products__price {
   color: #5bacc3;
 }

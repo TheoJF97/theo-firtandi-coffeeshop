@@ -16,11 +16,6 @@
   margin-top: 1rem;
 }
 
-.hero-header__link,
-.our-products__link {
-  text-decoration: none;
-}
-
 .hero-header {
   background-color: #fff0ed;
   text-align: center;
@@ -30,12 +25,19 @@
   margin: 0;
 }
 
+.hero-header__link,
+.our-products__link,
+.different__learn-link {
+  text-decoration: none;
+}
+
 .hero-header__button,
-.our-products__button {
+.our-products__button,
+.discount__learn-button {
   background-color: #5bacc3;
   color: white;
   border: none;
-  width: 11.25rem;
+  width: 12.25rem;
   padding: 1rem;
   font-size: 1.5rem;
   display: inline-block;
@@ -43,7 +45,8 @@
 }
 
 .hero-header__button:hover,
-.our-products__button:hover {
+.our-products__button:hover,
+.discount__learn-button:hover {
   background-color: #393939;
   color: #f7f7f7;
 }
@@ -120,6 +123,38 @@
 
 .our-products-button-box {
   padding: 3rem 0;
+}
+
+/* WE'RE DIFFERENT */
+
+.different {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 7rem;
+}
+
+.different-text-container {
+  width: 36%;
+}
+
+.different-img-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.different__img {
+  width: 11%;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.different__can-and-background {
+  background-image: url(../assets/coldbrewbackground.png);
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 /* DISCOUNT */
