@@ -1,7 +1,7 @@
 /* MENU */
 
 .menu {
-  background-image: url(../assets/coffee-circle.jpg);
+  background-image: url(../assets/images/coffee-circle.jpg);
   width: 100%;
   height: 43.75rem;
   background-position: center;
@@ -10,6 +10,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.menu-box-offset {
+  position: absolute;
+  border: 0.3125rem solid #5bacc3;
+  width: 18.75rem;
+  height: 12.5rem;
+  top: 14.625rem;
+  left: 29.625rem;
 }
 
 .menu-box {
@@ -75,9 +85,5 @@
 .menu__item-description {
   width: 26%;
   text-align: center;
-  display: inline-block;
-}
-
-.nav-link {
   display: inline-block;
 }

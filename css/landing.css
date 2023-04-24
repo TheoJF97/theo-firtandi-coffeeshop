@@ -3,10 +3,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 63vh;
 }
 
 .hero-header__box {
   padding-top: 5rem;
+  position: relative;
 }
 
 .hero-header__box {
@@ -14,6 +16,7 @@
   text-align: left;
   margin-bottom: 14rem;
   margin-top: 1rem;
+  position: relative;
 }
 
 .hero-header {
@@ -31,6 +34,10 @@
   text-decoration: none;
 }
 
+.hero-header__button {
+  z-index: 0;
+}
+
 .hero-header__button,
 .our-products__button,
 .discount__learn-button {
@@ -40,8 +47,22 @@
   width: 12.25rem;
   padding: 1rem;
   font-size: 1.5rem;
-  display: inline-block;
   text-align: center;
+}
+
+.hero-header-offset,
+.different-learn-offset,
+.our-products-offset {
+  outline: 0.125rem solid #393939;
+  z-index: 1;
+  position: absolute;
+}
+
+.hero-header-offset {
+  width: 12.0625rem;
+  height: 3.5rem;
+  top: 16.5625rem;
+  right: 10.25rem;
 }
 
 .hero-header__button:hover,
@@ -60,10 +81,15 @@
 .our-products {
   text-align: center;
   background-color: #f7f7f7;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .our-products__title {
-  display: block;
   padding-top: 5rem;
   margin-top: 0;
 }
@@ -116,13 +142,20 @@
   font-weight: bold;
 }
 
+.our-products-offset {
+  width: 12.0625rem;
+  height: 3.5rem;
+  bottom: 3.125rem;
+  right: 34.4375rem;
+}
+
 .our-products__title,
 .our-products__link {
   text-align: center;
 }
 
-.our-products-button-box {
-  padding: 3rem 0;
+.our-products__button {
+  margin: 3rem 0;
 }
 
 /* WE'RE DIFFERENT */
@@ -131,10 +164,12 @@
   display: flex;
   justify-content: space-around;
   padding-top: 7rem;
+  position: relative;
 }
 
 .different-text-container {
   width: 36%;
+  position: relative;
 }
 
 .different-img-container {
@@ -148,13 +183,34 @@
   padding: 1rem 1rem 1rem 1rem;
 }
 
+.different-learn-offset {
+  width: 10.0625rem;
+  padding: 1rem;
+  margin: 1.25rem;
+  height: 1.4375rem;
+  right: 15.75rem;
+  top: 20.1875rem;
+}
+
+.different-background-offset {
+  padding: 1.25rem;
+  margin: 1.25rem;
+  border: 0.3125rem solid #5bacc3;
+  position: absolute;
+  height: 32vh;
+  width: 20.875rem;
+  right: 7.25rem;
+  bottom: 1.25rem;
+}
+
 .different__can-and-background {
-  background-image: url(../assets/coldbrewbackground.png);
-  width: 35%;
+  background-image: url(../assets/images/coldbrewbackground.png);
+  width: 29%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
+  background-size: 29.687rem;
 }
 
 /* DISCOUNT */
@@ -184,6 +240,19 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
+  position: relative;
+}
+
+.footer__coffee-bg {
+  position: absolute;
+  opacity: 25%;
+  width: 7.5rem;
+  right: -2.3125rem;
+  top: 10.5rem;
+}
+.footer__coffee-bg--secondary {
+  left: -2.3125rem;
+  top: 3.75rem;
 }
 
 .footer-hours__day {
@@ -195,4 +264,8 @@
 .footer-social {
   text-align: left;
   margin: 5rem;
+}
+
+.footer-social__link {
+  text-decoration: none;
 }
